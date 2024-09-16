@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply rounded-[20px] px-[10px] py-[5px] transition hover:bg-gray-300;
+  }
+}

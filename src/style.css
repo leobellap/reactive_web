@@ -6,4 +6,17 @@
   .button {
     @apply rounded-[20px] px-[10px] py-[5px] transition hover:bg-gray-300;
   }
+  .dropdown-menu {
+    @apply absolute flex translate-y-[40px] flex-col items-start gap-[10px] text-nowrap rounded-[20px] border border-gray-300 bg-gray-200 bg-opacity-95 px-[20px] py-[10px];
+  }
+  .dropdown {
+    @apply absolute flex h-fit w-fit translate-y-[40px] gap-[80px] rounded-[20px] border border-gray-300 bg-gray-200 bg-opacity-95 px-[20px] py-[10px];
+  }
+
+  .dropdown-headline {
+    @apply font-light;
+  }
+  .dropdown-text {
+    @apply hover:text-[#C44545];
+  }
 }

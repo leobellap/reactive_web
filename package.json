@@ -5,17 +5,11 @@
   "main": "index.html",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base /reactive_web --outDir docs",
+    "build": "vite build --base /reactive_web",
     "preview": "vite preview"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "alpinejs": "^3.14.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.11"
-  },
   "devDependencies": {
     "alpinejs": "^3.14.1",
     "autoprefixer": "^10.4.20",
